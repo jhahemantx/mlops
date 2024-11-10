@@ -3,7 +3,7 @@ from mlProject.components.data_ingestion import DataIngestion
 from mlProject import logger
 
 
-STAGE_NAME = "Data Ingestion stage"
+STAGE_NAME = "Data Ingestion Stage"
 
 class DataIngestionTrainingPipeline:
     def __init__(self):
