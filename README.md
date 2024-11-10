@@ -119,7 +119,8 @@ export MLFLOW_TRACKING_PASSWORD==1949f38fd472b54be1def399cc28ce4a14a2b791
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.ap-south-1.amazonaws.com/mlproj
+    - Save the URI:  289644173922.dkr.ecr.eu-north-1.amazonaws.com/mlflow
+
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
@@ -153,11 +154,13 @@ export MLFLOW_TRACKING_PASSWORD==1949f38fd472b54be1def399cc28ce4a14a2b791
 
     AWS_SECRET_ACCESS_KEY=
 
-    AWS_REGION = us-east-1
+    AWS_REGION = eu-north-1
 
-    AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
+    AWS_ECR_LOGIN_URI = demo>>   289644173922.dkr.ecr.eu-north-1.amazonaws.com
 
-    ECR_REPOSITORY_NAME = simple-app
+
+    ECR_REPOSITORY_NAME = mlops 
+	<!-- name of the repo -->
 
 
 
