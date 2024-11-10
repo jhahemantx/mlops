@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wine Quality Prediction - Home</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Wine Quality Prediction</h1>
+        <form id = "prediction" action="/predict" method="post" >
+            <input type="text" name="fixed_acidity" id="fixed_acidity" placeholder="Fixed Acidity" required><br>
+            <input type="text" name="volatile_acidity" id="volatile_acidity" placeholder="Volatile Acidity" required><br>
+            <input type="text" name="citric_acid" id="citric_acid" placeholder="Citric Acid" required><br>
+            <input type="text" name="residual_sugar" id="residual_sugar" placeholder="Residual Sugar" required><br>
+            <input type="text" name="chlorides" id="chlorides" placeholder="Chlorides" required><br>
+            <input type="text" name="free_sulfur_dioxide" id="free_sulfur_dioxide" placeholder="Free Sulfur Dioxide" required><br>
+            <input type="text" name="total_sulfur_dioxide" id="total_sulfur_dioxide" placeholder="Total Sulfur Dioxide" required><br>
+            <input type="text" name="density" id="density" placeholder="Density" required><br>
+            <input type="text" name="pH" id="pH" placeholder="pH" required><br>
+            <input type="text" name="sulphates" id="sulphates" placeholder="Sulphates" required><br>
+            <input type="text" name="alcohol" id="alcohol" placeholder="Alcohol" required><br><br>
+            <div>
+                <input type="submit" value="Predict" class="submit-btn">
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>
